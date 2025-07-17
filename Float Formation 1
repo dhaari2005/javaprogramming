@@ -1,0 +1,15 @@
+
+import java.util.*;
+
+public class main {
+
+    public static void main(String[]args){
+    float d;
+    Scanner sc=new Scanner(System.in);
+        d=sc.nextFloat();
+       System.out.printf("%.6f\n",d);
+       System.out.printf("%.4f\n",d); 
+       System.out.printf("%.2f\n",d);
+       System.out.printf("%.0f\n",d);
+    }
+}
