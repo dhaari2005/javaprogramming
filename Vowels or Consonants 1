@@ -1,0 +1,16 @@
+
+import java.util.*;
+
+
+public class Solution {
+public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+        char Ch=sc.nextLine().charAt(0);
+        if(Ch=='A'||Ch=='B'||Ch=='E'||Ch=='I'||Ch=='O'||Ch=='u')
+        System.out.printf("The Character %c is Vowel",Ch);
+        else
+        {
+            System.out.printf("The Character %c is Consonant",Ch);
+        }
+    }
+}
